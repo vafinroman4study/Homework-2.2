@@ -1,16 +1,9 @@
 //package pro.sky.java.homeworks.course2.lesson1;
 
-public class Truck {
+public class Truck extends Car {
 
-    public String modelName;
-    public int wheelsCount;
-
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+    public Truck(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
     }
 
     public void checkTrailer() {
